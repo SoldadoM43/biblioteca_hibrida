@@ -1,7 +1,9 @@
+import AppRoutes from "./routes";
+
 function App() {
   return (
     <>
-      Hello Biblioteca Hibrida
+      <AppRoutes />
     </>
   );
 }
