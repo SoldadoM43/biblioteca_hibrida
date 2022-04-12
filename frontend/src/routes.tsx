@@ -1,18 +1,18 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 
 import HomeScreen from "./pages/HomeScreen";
-import LoginSecreen from "./pages/LoginScreen";
-import FirstSecreen from "./pages/FirstScreen";
-import RegistrationSecreen from "./pages/RegistrationScreen";
+import FirtScreen from "./pages/FirstScreen";
+import LoginScreen from "./pages/LoginScreen";
+import RegistrationScreen from "./pages/RegistrationScreen";
 
 export default function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<FirstSecreen/>}/>
+                <Route path="/" element={<FirtScreen/>}/>
                 <Route path="/home_screen" element={<HomeScreen/>}/>
-                <Route path="/login_secreen" element={<LoginSecreen/>}/>
-                <Route path="/registration_secreen" element={<RegistrationSecreen/>}/>
+                <Route path="/login_screen" element={<LoginScreen />}/>
+                <Route path="/registration_screen" element={<RegistrationScreen />}/>
             </Routes>
         </BrowserRouter>
     );
