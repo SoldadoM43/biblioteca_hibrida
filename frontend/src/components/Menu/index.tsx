@@ -28,7 +28,7 @@ export default function Menu() {
                         </li>
                         <li>
                             <div className="card">
-                            <Link to="Libraries_screen" style={{textDecoration: 'none'}}>
+                            <Link to="libraries_screen" style={{textDecoration: 'none'}}>
                                     <IoMdHome className="icon" />
                                     <span> Bibliotecas </span>
                                 </Link>
