@@ -10,6 +10,7 @@ import LibrariesScreen from "./pages/LibrariesScreen";
 import RegistrationScreen from "./pages/RegistrationScreen";
 import NotificationsScreen from "./pages/NotificationsScreen";
 import InformationHelpScreen from "./pages/InformationHelpScreen";
+import ProfileScreen from "./pages/ProfileScreen";
 
 export default function AppRoutes() {
     return (
@@ -19,12 +20,13 @@ export default function AppRoutes() {
                 <Route path="/home_screen" element={<HomeScreen/>}/>
                 <Route path="/login_screen" element={<LoginScreen />}/>
                 <Route path="/savad_screen" element={<SavedScreen />}/>
+                <Route path="/profile_screen" element={<ProfileScreen />}/>
                 <Route path="/messages_screen" element={<MessagesScreen />}/>
                 <Route path="/favorite_screen" element={<FavoriteScreen />}/>
                 <Route path="/libraries_screen" element={<LibrariesScreen />}/>
+                <Route path="/registration_screen" element={<RegistrationScreen />}/>
                 <Route path="/notifications_screen" element={<NotificationsScreen />}/>
                 <Route path="/informations_help_screen" element={<InformationHelpScreen />}/>
-                <Route path="/registration_screen" element={<RegistrationScreen />}/>
             </Routes>
         </BrowserRouter>
     );

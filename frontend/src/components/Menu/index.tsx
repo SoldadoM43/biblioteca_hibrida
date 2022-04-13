@@ -84,7 +84,7 @@ export default function Menu() {
                         <li>
                             <div className="card2">
                                 <div className="profile">
-                                    <Link to="/perfil" style={{ textDecoration: 'none' }}>
+                                    <Link to="/profile_screen" style={{ textDecoration: 'none' }}>
                                         <div className="profile_details">
                                             <img src={Perfil} alt="perfil" />
                                             <div className="name_rm">
