@@ -14,7 +14,7 @@ import InformationHelpScreen from "./pages/InformationHelpScreen";
 export default function AppRoutes() {
     return (
         <BrowserRouter>
-            <Routes>
+            <Routes> 
                 <Route path="/" element={<FirtScreen/>}/>
                 <Route path="/home_screen" element={<HomeScreen/>}/>
                 <Route path="/login_screen" element={<LoginScreen />}/>
