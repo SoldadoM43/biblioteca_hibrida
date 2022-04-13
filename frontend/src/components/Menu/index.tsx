@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 
-import { IoMdHome } from "react-icons/io";
+import { IoMdHome, IoMdNotifications } from "react-icons/io";
+import { GiBookshelf } from "react-icons/gi";
+import { RiBookmarkFill } from "react-icons/ri";
+import { FiMessageSquare } from "react-icons/fi";
+import { MdOutlineFavorite } from "react-icons/md";
+import { AiOutlineInfoCircle } from "react-icons/ai";
 
 import "./_menu.scss";
 
 import Logo from "../../assets/Logo.png"
 
-export default function Menu() {
+export default function Menu() { 
     return (
         <>
             <div className="sidebar">
@@ -29,7 +34,7 @@ export default function Menu() {
                         <li>
                             <div className="card">
                             <Link to="libraries_screen" style={{textDecoration: 'none'}}>
-                                    <IoMdHome className="icon" />
+                                    <GiBookshelf className="icon" />
                                     <span> Bibliotecas </span>
                                 </Link>
                             </div>
@@ -37,7 +42,7 @@ export default function Menu() {
                         <li>
                             <div className="card">
                             <Link to="favorite_screen" style={{textDecoration: 'none'}}>
-                                    <IoMdHome className="icon" />
+                                    <MdOutlineFavorite className="icon" />
                                     <span> Favoritos </span>
                                 </Link>
                             </div>
@@ -45,7 +50,7 @@ export default function Menu() {
                         <li>
                             <div className="card">
                             <Link to="saved_screen" style={{textDecoration: 'none'}}>
-                                    <IoMdHome className="icon" />
+                                    <RiBookmarkFill className="icon" />
                                     <span> Salvos </span>
                                 </Link>
                             </div>
@@ -53,7 +58,7 @@ export default function Menu() {
                         <li>
                             <div className="card">
                             <Link to="information_help_screen" style={{textDecoration: 'none'}}>
-                                    <IoMdHome className="icon" />
+                                    <AiOutlineInfoCircle className="icon" />
                                     <span> Informações e Ajuda </span>
                                 </Link>
                             </div>
@@ -61,7 +66,7 @@ export default function Menu() {
                         <li>
                             <div className="card">
                             <Link to="messages_screen" style={{textDecoration: 'none'}}>
-                                    <IoMdHome className="icon" />
+                                    <FiMessageSquare className="icon" />
                                     <span> Mensagens </span>
                                 </Link>
                             </div>
@@ -69,7 +74,7 @@ export default function Menu() {
                         <li>
                             <div className="card">
                             <Link to="notifications_screen" style={{textDecoration: 'none'}}>
-                                    <IoMdHome className="icon" />
+                                    <IoMdNotifications className="icon" />
                                     <span> Notificações </span>
                                 </Link>
                             </div>
